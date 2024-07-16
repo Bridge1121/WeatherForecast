@@ -7,4 +7,42 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <!-- Grey-->
+    <color name="grey_000">#FFFFFF</color>
+    <color name="grey_050">#FAFAFA</color>
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_200">#EEEEEE</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="grey_400">#BDBDBD</color>
+    <color name="grey_500">#9E9E9E</color>
+    <color name="grey_600">#757575</color>
+    <color name="grey_700">#616161</color>
+    <color name="grey_800">#424242</color>
+    <color name="grey_900">#AAAAAA</color>
+    <color name="grey_1000">#666666</color>
+
+    <color name="green21">#0479CA</color>
+    <color name="black1b">#1b1b1b</color>
+    <color name="grey_f2">#f2f2f2</color>
+
+    <!--    <color name="colorPrimary">#008577</color>-->
+    <color name="colorPrimary">#df4277</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="main_black_grey">#6D6D6D</color>
+    <color name="text__white">#ffffffff</color>
+    <color name="main_pink_light">#df4277</color>
+
+    <color name="red_normal">#FF0000</color>
+    <color name="red_pressed">#FF6666</color>
+    <color name="green_normal">#37C000</color>
+    <color name="green_pressed">#30A070</color>
+    <color name="purple_normal">#9932CC</color>
+    <color name="purple_pressed">#9F79EE</color>
+
+    <color name="yellow">#FFD700</color>
+
+    <color name="mdtp_accent_color">#FF018786</color>
+    <color name="mdtp_accent_color_dark">#FF018989</color>
+
 </resources>

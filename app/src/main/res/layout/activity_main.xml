@@ -10,7 +10,7 @@
         android:id="@+id/cityEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="输入城市名称"
+        android:hint="请输入城市名称"
         android:padding="8dp" />
 
 
@@ -19,13 +19,73 @@
         android:layout_below="@id/cityEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="搜索"
+        android:text="查询"
         android:layout_marginTop="16dp"
         android:padding="8dp" />
+    <LinearLayout
+        android:id="@+id/weatherInfoLayout"
+        android:layout_below="@id/searchButton"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_background"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/provinceCityTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="省市: " />
+
+        <TextView
+            android:id="@+id/districtTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="区县: " />
+
+
+        <TextView
+            android:id="@+id/reportTimeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="报告时间: " />
+
+        <TextView
+            android:id="@+id/weatherConditionsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="天气情况: " />
+
+        <TextView
+            android:id="@+id/uvIndexTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="紫外线指数: " />
+
+        <TextView
+            android:id="@+id/adviceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="各项指数: " />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/weatherInfoLayout"
+        android:text="该地区未来五日天气预报"
+        android:visibility="gone"
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:padding="8dp"
+        android:gravity="center" />
+
 
     <ListView
         android:id="@+id/weatherListView"
-        android:layout_below="@id/searchButton"
+        android:layout_below="@id/titleTextView"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 

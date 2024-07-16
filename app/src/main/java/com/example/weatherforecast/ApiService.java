@@ -14,6 +14,9 @@ public interface ApiService {
     @GET("getSupportCityString")
     Call<String> getSupportCityString(@Query("theRegionCode") Integer theRegionCode);
 
+    //获取对应城市当天的天气预报，userID也可以不传
+    @GET("getWeather")
+    Call<String> getWeather(@Query("theCityCode") Integer theCityCode,@Query("theUserID") String userID);
 
 
 

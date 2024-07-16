@@ -20,7 +20,7 @@ import retrofit2.converter.scalars.ScalarsConverterFactory;
 
 public class RetrofitClient {
 
-    private static final String BASE_URL = "http://ws.webxml.com.cn/webservices/ChinaTVprogramWebService.asmx/";
+    private static final String BASE_URL = "http://ws.webxml.com.cn/webservices/WeatherWS.asmx/";
     private static Retrofit retrofit;
     private static Retrofit tokenRetrofit;
 
